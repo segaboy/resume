@@ -93,7 +93,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding-top: 250px; /* Push content below fixed header */
+  padding-top: var(--header-h, 230px); /* fallback for first paint */
 }
 
 section {

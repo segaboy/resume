@@ -6,6 +6,16 @@
   <title>Dean Howell – Resume</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<script>
+  function adjustHeaderOffset() {
+    const h = document.querySelector('.resume-header');
+    if (!h) return;
+    const px = h.offsetHeight + 20; // +20px breathing room
+    document.documentElement.style.setProperty('--header-h', px + 'px');
+  }
+  window.addEventListener('load', adjustHeaderOffset);
+  window.addEventListener('resize', adjustHeaderOffset);
+</script>
 <body> 
   <header class="resume-header">
   <div class="header-left">

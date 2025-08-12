@@ -27,6 +27,13 @@ a { transition: color 0.3s ease; }
   color: white;
   padding: 20px;
   gap: 20px;
+  
+  position: fixed;     /* Keep it fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;        /* Keep it above all content */
+  backdrop-filter: blur(4px); /* Optional: softens content behind */
 }
 
 .header-left { flex: 0 0 auto; }
@@ -86,6 +93,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-top: 250px; /* Push content below fixed header */
 }
 
 section {

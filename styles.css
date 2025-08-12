@@ -52,3 +52,38 @@ body {
 .social-links a:hover {
   color: #1abc9c;
 }
+
+/* GENERAL SECTION STYLES */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #1abc9c;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.date {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.job, .project {
+  margin-bottom: 20px;
+}
+
+.project h3 a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  text-decoration: underline;
+}

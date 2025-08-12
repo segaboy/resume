@@ -83,6 +83,22 @@ a { transition: color 0.3s ease; }
   vertical-align: text-bottom;
 }
 
+.docker-instructions {
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    color: #f1f1f1;
+}
+
+.docker-instructions code {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
 /* =========================
    MAIN CONTENT LAYOUT
    ========================= */

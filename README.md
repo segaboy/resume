@@ -2,6 +2,8 @@
 
 This project is a **personal resume webpage** built with **HTML, CSS, and a touch of JavaScript** to create a visually engaging and interactive presentation of my professional experience.
 
+![Resume Website Screenshot](images/frontpage.png)
+
 ## ✨ Features
 
 - **Animated Background** — A custom Docker-themed tiled background that scrolls diagonally for a dynamic effect.

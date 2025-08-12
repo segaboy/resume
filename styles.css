@@ -80,6 +80,20 @@ a {
   color: #1abc9c;
 }
 
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 /* MAIN CONTENT LAYOUT */
 main {
   padding: 20px;

@@ -114,7 +114,7 @@ ul { padding-left: 20px; }
 .job, .project { margin-bottom: 20px; }
 
 .project h3 a {
-  color: #6EFDD0;
+  color: #264653;
   text-decoration: none;
 }
 .project h3 a:hover { text-decoration: underline; }

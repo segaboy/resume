@@ -16,10 +16,10 @@ This project is a **personal resume webpage** built with **HTML, CSS, and a touc
 
 This resume can also be deployed in a lightweight **Nginx container**:
 
-```bash
-docker pull segaboy/resume-nginx:latest
-docker run -d -p 8080:80 segaboy/resume-nginx:latest
-
 🌐 Live Demo
 You can view the hosted version on GitHub Pages:
 🔗 https://segaboy.github.io/resume/
+
+```bash
+docker pull segaboy/resume-nginx:latest
+docker run -d -p 8080:80 segaboy/resume-nginx:latest
